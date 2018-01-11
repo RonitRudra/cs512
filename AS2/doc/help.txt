@@ -1,0 +1,44 @@
+############################################################################
+############################################################################
+############################################################################
+############################################################################
+############################################################################
+
+Displaying Help….
+This program performs basic image processing tasks on the loaded image.
+Use the command line to run the file using:
+“run main.py <argument>”
+The argument determines the type of input.
+If argument is blank then the program takes images from the webcam.
+If argument is a filename then the program read that file from the data folder.
+If argument is ‘x’ then the program searches the data folder for jpg and png files and asks the user to choose one.
+
+The menu presents the user with a list of possible choices.
+
+Press the ‘e’ key to exit the program or, close the image window when an image is displayed. Be sure to select the active window before pressing a key.
+
+The following keys are supported:
+
+i - Reload Original Image
+w - Save the Current Image
+g - Convert Image to Grayscale (Builtin)
+G - Convert Image to Grayscale (Custom)
+c - Cycle Color Channels
+s - Convert to Grayscale and Smooth (Builtin)
+S - Convert to Grayscale and Smooth (Custom)
+d - Downsample by 2 without Smoothing
+D - Downsample by 2 with Smoothing
+x - Get X Derivative
+y - Get Y Derivative
+m - Get Normalized Gradients
+n - Plot Gradient Vectors
+r - Rotate
+h - Show Help
+
+Simply follow the instructions when prompted.
+
+############################################################################
+############################################################################
+############################################################################
+############################################################################
+############################################################################

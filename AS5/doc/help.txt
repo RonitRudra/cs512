@@ -1,0 +1,31 @@
+############################################################################
+############################################################################
+############################################################################
+############################################################################
+############################################################################
+This Program performs Epipolar Estimation by calculating the Fundamental Matrix from corresponding points of two images.
+The images are stored in the data folder in .tiff format with names as <name>-l or <name>-r marking the left and right images respectively.
+Use the command line to run the file using:
+“run main.py <name>”
+The argument determines the filename of the input image without the ‘-l’ or ‘-r’ suffixes.
+For example: python main.py corridor 
+
+When run, you will be shown two images and have to choose corresponding points in the each image by clicking on a point. The points are color coded to make it easier to track.
+
+Once done, press ‘e’ to continue to the next step. If the number of points in each image are not equal, the program will exit.
+
+After the points are accepted, the F matrix is calculated. It is displayed followed by the left and right episode coordinates.
+
+Then the images are displayed again. Clicking on a point in any one of the images draws a green colored epipolar line in the other image. The points are marked red.
+
+Press the ‘e’ key to exit the program.
+
+Simply follow the instructions when prompted.
+
+You can also run ‘test.py’ with a numerical argument to test the program with the matched points file in the data folder to gauge performance.
+
+############################################################################
+############################################################################
+############################################################################
+############################################################################
+############################################################################
